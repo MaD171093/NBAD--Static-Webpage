@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Architecture Society</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+  </head>
+
+  <body>
+
+    <header id="sticky">
+      <div class="row user-specific-navigation">
+        <div class="eight columns">
+          <ul class="general-site-navigation">
+            <li class="logo"><a href="index.html"><img src="images/Logo_Website.png" alt="Logo of Architecture Society"></a></li>
+          </ul>
+        </div>
+        <div class="four columns">
+          <ul class="user-specific-navigation">
+            <li class="align-right" ><a href="#">Start a New Arch Connection</a></li>
+            <li class="align-right" id="login"><a href="#">Login</a></li>
+            <li class="align-right" ><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row ">
+        <div class="eight columns">
+          <ul class="general-site-navigation">
+            <li><a href="connections.html">Architecture Connections</a></li>
+          </ul>
+        </div>
+        <div class="four columns ">
+          <ul class="user-specific-navigation">
+            <li class="align-right" id="user">Welcome MaD Tech Integrator!! </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h5>MaD Tech Integrator's Connections</h5>
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Connection</th>
+                <th>Category</th>
+                <th>Going?</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Integrative Technology Lab</td>
+                <td>ACHIM MENGES CLUB</td>
+                <td>Yes</td>
+                <td>
+                  <form class="button-line" action="connection.html" method="post">
+                    <input class="button" type="submit" value="Update">
+                  </form>
+                  <form class="button-line" action="savedConnections.html" method="post">
+                    <input class="button" type="submit" value="Delete">
+                  </form>
+                </td>
+              </tr>
+              <tr>
+                <td>Organic Architecture Model Shop</td>
+                <td>FRANK LLOYD WRIGHT CLUB</td>
+                <td>Maybe</td>
+                <td>
+                  <form class="button-line" action="connection.html" method="post">
+                    <input class="button" type="submit" value="Update">
+                  </form>
+                  <form class="button-line" action="savedConnections.html" method="post">
+                    <input class="button" type="submit" value="Delete">
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <ul class="footer-navigation">
+        <li> <a href="#">© Architecture Society</a></li>
+        <li id="about"><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
